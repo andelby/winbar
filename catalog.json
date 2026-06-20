@@ -1,12 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-20T14:00:00Z",
+  "updatedAt": "2026-06-20T15:00:00Z",
   "categories": [
     {
       "id": "system",
       "name": "System",
       "glyph": "\ue950",
       "order": 10
+    },
+    {
+      "id": "media",
+      "name": "Media",
+      "glyph": "\ue8d6",
+      "order": 20
     }
   ],
   "widgets": [
@@ -34,6 +40,32 @@
           "name": "Metriche di sistema",
           "summary": "Metriche in tempo reale per CPU, memoria, GPU, disco, rete e temperature.",
           "description": "Controlla il PC direttamente dalla taskbar di Windows con layout, colori e viste dettagliate configurabili."
+        }
+      }
+    },
+    {
+      "id": "media-now-playing",
+      "pluginId": "com.widbar.media",
+      "name": "Media Now Playing",
+      "summary": "See and control music, video and browser playback from the taskbar.",
+      "description": "A polished now-playing widget with artwork, title, artist, source, timeline and playback controls.",
+      "publisher": "Andrea Del Bello",
+      "category": "media",
+      "storeProductId": "9NBVCHS7JR0C",
+      "iconUrl": "https://andelby.github.io/winbar-showcase/assets/media-now-playing.png",
+      "heroImageUrl": "",
+      "minimumHostVersion": "1.0.5",
+      "featured": true,
+      "tags": [
+        "Music",
+        "Playback",
+        "Media"
+      ],
+      "localizations": {
+        "it-IT": {
+          "name": "Media in riproduzione",
+          "summary": "Visualizza e controlla musica, video e contenuti del browser dalla taskbar.",
+          "description": "Un widget multimediale con copertina, titolo, artista, sorgente, timeline e controlli di riproduzione."
         }
       }
     }
