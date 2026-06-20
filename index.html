@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <title>WidBar Widget Showcase</title>
+  <meta name="description" content="Discover Microsoft Store widgets for WidBar.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="shell">
+    <a class="brand" href="./" aria-label="WidBar widget showcase">
+      <span class="brand-mark">W</span>
+      <span>
+        <strong>WidBar</strong>
+        <small>Widget Showcase</small>
+      </span>
+    </a>
+    <a class="primary-link" href="https://apps.microsoft.com/detail/9pkldnm83tp9">
+      Get WidBar
+    </a>
+  </header>
+
+  <main>
+    <section class="intro">
+      <p class="eyebrow">MICROSOFT STORE EXTENSIONS</p>
+      <h1>Make the Windows taskbar yours.</h1>
+      <p>Browse trusted widgets built for WidBar. Installation and updates are handled securely by Microsoft Store.</p>
+    </section>
+
+    <section class="catalog" aria-labelledby="catalog-title">
+      <div class="catalog-heading">
+        <div>
+          <h2 id="catalog-title">Available widgets</h2>
+          <p id="status">Loading the catalog...</p>
+        </div>
+        <label class="search">
+          <span aria-hidden="true">&#x2315;</span>
+          <input id="search" type="search" placeholder="Search widgets" autocomplete="off">
+        </label>
+      </div>
+      <div id="widgets" class="widget-grid" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer>
+    <span>WidBar widgets run as Microsoft Store AppExtensions.</span>
+    <a href="catalog.json">View catalog JSON</a>
+  </footer>
+
+  <template id="widget-template">
+    <article class="widget-card">
+      <div class="widget-top">
+        <img class="widget-icon" alt="">
+        <div>
+          <h3></h3>
+          <p class="publisher"></p>
+        </div>
+      </div>
+      <p class="summary"></p>
+      <div class="widget-bottom">
+        <div class="tags"></div>
+        <a class="store-link">View in Store</a>
+      </div>
+    </article>
+  </template>
+  <script src="app.js" defer></script>
+</body>
+</html>

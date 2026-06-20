@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-06-20T14:00:00Z",
+  "categories": [
+    {
+      "id": "system",
+      "name": "System",
+      "glyph": "\ue950",
+      "order": 10
+    }
+  ],
+  "widgets": [
+    {
+      "id": "system-metrics",
+      "pluginId": "com.widbar.systemmetrics",
+      "name": "System Metrics",
+      "summary": "Live CPU, memory, GPU, storage, network and temperature metrics.",
+      "description": "Monitor your PC directly from the Windows taskbar with configurable layouts, colors and detailed performance views.",
+      "publisher": "Andrea Del Bello",
+      "category": "system",
+      "storeProductId": "9NM2BN1X33CQ",
+      "iconUrl": "https://andelby.github.io/winbar-showcase/assets/system-metrics.png",
+      "heroImageUrl": "",
+      "minimumHostVersion": "1.0.5",
+      "featured": true,
+      "tags": [
+        "CPU",
+        "Memory",
+        "GPU",
+        "Performance"
+      ],
+      "localizations": {
+        "it-IT": {
+          "name": "Metriche di sistema",
+          "summary": "Metriche in tempo reale per CPU, memoria, GPU, disco, rete e temperature.",
+          "description": "Controlla il PC direttamente dalla taskbar di Windows con layout, colori e viste dettagliate configurabili."
+        }
+      }
+    }
+  ]
+}
